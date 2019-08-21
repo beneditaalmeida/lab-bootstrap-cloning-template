@@ -1,0 +1,16 @@
+.card-body{
+    transition: opacity 0.25s easy-in-out;
+}
+
+.card-image-top{
+    transition: opacity 0.25s easy-in-out;
+}
+
+.card:hover .card-body{
+    opacity: 0.6;
+}
+
+.card:hover .card-image-top {
+    transform: scale(1.05);
+}
+
